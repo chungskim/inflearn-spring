@@ -36,4 +36,10 @@ public class Member { // Member 클래스 (데이터 타입)
     public void setGrade(Grade grade) {
         this.grade = grade;
     }
+
+    // 최상위 클래스의 toString() 함수를 재정의(override)
+    @Override
+    public String toString() {
+        return name;
+    }
 }
